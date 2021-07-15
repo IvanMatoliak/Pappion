@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Pappion.Admin.Application
+namespace Pappion.Application
 {
     public class Class1
     {
