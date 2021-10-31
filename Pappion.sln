@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pappion.Domain", "Pappion.D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pappion.Api", "Pappion.Api\Pappion.Api.csproj", "{5FC7E16A-ED0D-4319-B9FA-0AEE651FC833}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pappion.Application", "Pappion.Application\Pappion.Application.csproj", "{8CB8B706-67B3-42A1-9ACD-FAB7D4FDACF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pappion.Application", "Pappion.Application\Pappion.Application.csproj", "{8CB8B706-67B3-42A1-9ACD-FAB7D4FDACF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pappion.Ui", "Pappion.Ui\Pappion.Ui.csproj", "{1B263E00-3587-4521-89C9-67B425977AE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{8CB8B706-67B3-42A1-9ACD-FAB7D4FDACF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CB8B706-67B3-42A1-9ACD-FAB7D4FDACF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CB8B706-67B3-42A1-9ACD-FAB7D4FDACF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B263E00-3587-4521-89C9-67B425977AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B263E00-3587-4521-89C9-67B425977AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B263E00-3587-4521-89C9-67B425977AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B263E00-3587-4521-89C9-67B425977AE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
