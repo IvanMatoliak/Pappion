@@ -1,0 +1,45 @@
+﻿@page "/users";
+
+@using Pappion.Application.Admin.Users
+@using Pappion.Domain.Entities
+
+@inject IUserService _userService;
+
+<div>
+    <h1>Users</h1>
+
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Username</th>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Phone</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in _users)
+            {
+                <tr>
+                    <td>@user.Id</td>
+                    <td>@user.Username</td>
+                    <td>@user.FullName</td>
+                    <td>@user.Email</td>
+                    <td>@user.PhoneNumber</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+@code {
+    private User[] _users;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _users = await _userService.GetAllAsync();
+    }
+}
